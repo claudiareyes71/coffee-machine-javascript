@@ -23,10 +23,10 @@ curl \
   -X POST \
   https://studio.cucumber.io/cucumber_project/results \
   -F messages=@messages.ndjson \
-  -H "project-access-token: $PROJECT_ACCESS_TOKEN" \
+  -H "project-access-token: 77102039711171306244052741315808265002968697445888620063" \
   -H "provider: github" \
-  -H "repo: $REPOSITORY_NAME" \
+  -H "repo: claudiareyes71/coffee-machine-javascript" \
   -H "branch: main" \
-  -H "revision: $COMMIT_HASH"
+  -H "revision: $(git rev-parse HEAD)"
 { set +x; } 2>/dev/null
 echo
