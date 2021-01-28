@@ -1,4 +1,5 @@
 # Coffee Machine
+[![Build Status](https://travis-ci.org/claudiareyes71/coffee-machine-javascript.svg?branch=main)](https://travis-ci.org/claudiareyes71/coffee-machine-javascript)
 
 This is an example repository with some Gherkin feature files.
 
